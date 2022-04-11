@@ -1,0 +1,155 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+ char str[]="2+2*3+2/2-1";
+ char b[strlen(str)];
+ int j=-1;
+ for(int i=0;i<strlen(str);i++)
+ {
+	 if(str[i]=='*')
+	 {
+		 int l=b[j]-'0';
+		 int r=str[i+1]-'0';
+		 b[j]=l*r+'0';
+		 i++;
+	 }
+	else if(str[i]=='/')
+	{
+		int l=b[j]-'0';
+		int r=str[i+1]-'0';
+		b[j]=l/r+'0';
+		i++;
+	}
+	else b[++j]=str[i];
+	}
+ int res=b[0]-'0';
+ for(int i=1;i<strlen(b);i++)
+ {
+	 if(b[i]=='+') res+=b[++i]-'0';
+	 else if(b[i]=='-') res-=b[++i]-'0';
+
+ 
+ }printf("%d\n",res);
+ 
+ 
+ 
+ 
+ 
+ 
+ #include<stdio.h>
+#include<string.h>
+void main()
+{
+ char str[]="2+2*3+2/2-1";
+ char b[strlen(str)];
+ int j=-1;
+ for(int i=0;i<strlen(str);i++)
+ {
+	 if(str[i]=='*')
+	 {
+		 int l=b[j]-'0';
+		 int r=str[i+1]-'0';
+		 b[j]=l*r+'0';
+		 i++;
+	 }
+	else if(str[i]=='/')
+	{
+		int l=b[j]-'0';
+		int r=str[i+1]-'0';
+		b[j]=l/r+'0';
+		i++;
+	}
+	else b[++j]=str[i];
+	}
+ int res=b[0]-'0';
+ for(int i=1;i<strlen(b);i++)
+ {
+	 if(b[i]=='+') res+=b[++i]-'0';
+	 else if(b[i]=='-') res-=b[++i]-'0';
+
+ 
+ }printf("%d\n",res);
+ 
+ 
+ 
+ 
+ #include<stdio.h>
+#include<string.h>
+void main()
+{
+ char str[]="2+2*3+2/2-1";
+ char b[strlen(str)];
+ int j=-1;
+ for(int i=0;i<strlen(str);i++)
+ {
+	 if(str[i]=='*')
+	 {
+		 int l=b[j]-'0';
+		 int r=str[i+1]-'0';
+		 b[j]=l*r+'0';
+		 i++;
+	 }
+	else if(str[i]=='/')
+	{
+		int l=b[j]-'0';
+		int r=str[i+1]-'0';
+		b[j]=l/r+'0';
+		i++;
+	}
+	else b[++j]=str[i];
+	}
+ int res=b[0]-'0';
+ for(int i=1;i<strlen(b);i++)
+ {
+	 if(b[i]=='+') res+=b[++i]-'0';
+	 else if(b[i]=='-') res-=b[++i]-'0';
+
+ 
+ }printf("%d\n",res);
+ 
+ 
+ 
+ 
+ 
+ #include<stdio.h>
+#include<string.h>
+void main()
+{
+ char str[]="2+2*3+2/2-1";
+ char b[strlen(str)];
+ int j=-1;
+ for(int i=0;i<strlen(str);i++)
+ {
+	 if(str[i]=='*')
+	 {
+		 int l=b[j]-'0';
+		 int r=str[i+1]-'0';
+		 b[j]=l*r+'0';
+		 i++;
+	 }
+	else if(str[i]=='/')
+	{
+		int l=b[j]-'0';
+		int r=str[i+1]-'0';
+		b[j]=l/r+'0';
+		i++;
+	}
+	else b[++j]=str[i];
+	}
+ int res=b[0]-'0';
+ for(int i=1;i<strlen(b);i++)
+ {
+	 if(b[i]=='+') res+=b[++i]-'0';
+	 else if(b[i]=='-') res-=b[++i]-'0';
+
+ 
+ }printf("%d\n",res);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
